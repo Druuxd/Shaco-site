@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Shippori Antique', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1,h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    background-color: red;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header img{
+    border-radius: 150px;
+    width: 300px;
+    border: 10px solid rgb(150, 33, 49);
+}
+
+header h1{
+    color: white;
+
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(150, 33, 49);
+	display: table;
+	width: 100%;
+}
+nav li {
+	display: table-cell;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 800px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+h2{
+    font-size: 30px;
+    color: rgb(150, 33, 49);
+}
